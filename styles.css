@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  min-width: 100vw;
+  min-height: 100vh;
+  flex-flow: column;
+  justify-content: center;
+  background-color: black;
+  color: white;
+
+}
+
+section {
+  display: flex;
+  min-width: 100vw;
+  min-height: 70vh;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+footer {
+  display: flex;
+  flex-flow: column;
+  min-width: 100vw;
+  min-height: 30vh;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
