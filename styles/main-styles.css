@@ -4,7 +4,12 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #5a5a5a;
+  background-color: #000;
+  color: #fff;
+}
+
+p {
+  font-size: 18px;
 }
 
 .button-gradient {
@@ -36,6 +41,21 @@ body {
 
 .sec3 {
   background-image: url("../stock_photo/woman/AdobeStock_53060533_Preview.jpeg");
+}
+
+.sec-target {
+  background: url(../stock_photo/woman/archer3.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+.sec-target::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
 }
 
 
