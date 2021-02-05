@@ -1,10 +1,9 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: #5a5a5a;
+body { 
+  background-color: #000;
+  height: 100vh;
 }
 
 .button-gradient {
@@ -12,32 +11,52 @@ body {
 }
 
 .logo {
-  font-family: "Arial";
-  letter-spacing: 3px;
+  font-size: 20vw;
+  letter-spacing: -5px;
+  font-family: "Arial"; 
   font-weight: 900;
   color: transparent;
   -moz-background-clip: text;
   -webkit-background-clip: text;
   animation: animateLogo 10s linear 0s infinite alternate;
-  background-color: #fff;
+  background-color: #A539FF;
   background-image: linear-gradient(90deg, #23a6d5, #a539ff, #e73c7e);
   background-position: left;
   background-size: 800% 100%;
+  -webkit-text-stroke: 3px black;
+  text-stroke: 3px black;
 }
 
 @keyframes animateLogo {
   100% {
-    background-position: right;
+    background-position: center;
   }
 }
 
 .purple {
   color: #a539ff;
+  font-weight: 900;
 }
 
 .logo-shadow {
-  letter-spacing: 3px; 
-  text-shadow: 2px 2px 2px #ffffff,-2px -2px 2px #ffffff, 2px -2px 2px #ffffff, -2px 2px 2px #ffffff;
+  letter-spacing: 2px; 
+  -webkit-text-stroke: 2px black;
+  text-stroke: 2px black;
+}
+
+.logo-static {
+  font-size: 20vw;
+  letter-spacing: -5px;
+  font-family: "Arial"; 
+  font-weight: 900;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text; 
+  background-color: #A539FF;
+  background-image: linear-gradient(90deg, #e73c7e, #a539ff, #23a6d5);
+  background-size: 100% 100%;
+  -webkit-text-stroke: 3px black;
+  text-stroke: 3px black;
 }
 
 .target {
