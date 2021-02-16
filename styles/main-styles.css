@@ -20,7 +20,6 @@ p {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vmin;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -36,35 +35,32 @@ p {
 } */
 
 .sec1 {
-  background: url("../stock_photo/woman/AdobeStock_189834949.jpeg") no-repeat
-    center center fixed;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  background: url("../stock_photo/woman/AdobeStock_189834949.jpeg") no-repeat center center fixed;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
 }
 
 .sec2 {
-  background: url("../stock_photo/nag/AdobeStock_208672268_Preview.jpeg")
-    no-repeat center center fixed;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  background: url("../stock_photo/nag/AdobeStock_208672268_Preview.jpeg") no-repeat center center fixed;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
 }
 
 .sec3 {
-  background: url("../stock_photo/woman/AdobeStock_53060533_Preview.jpeg")
-    no-repeat center center fixed;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  background: url("../stock_photo/woman/AdobeStock_53060533_Preview.jpeg") no-repeat center center fixed;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
 }
 
 .sec-target {
   background: url(../stock_photo/woman/archer3.jpeg) no-repeat center;
-  background-size: contain;
+  background-size: 100% auto;
 }
 
 .sec-target::before {
