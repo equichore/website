@@ -1,7 +1,7 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-body { 
+body {
   background-color: #000;
   height: 100vh;
 }
@@ -11,15 +11,15 @@ body {
 }
 
 .logo {
-  font-size: 20vw;
+  font-size: 5vmax;
   letter-spacing: -5px;
-  font-family: "Arial"; 
+  font-family: "Arial";
   font-weight: 900;
   color: transparent;
   -moz-background-clip: text;
   -webkit-background-clip: text;
   animation: animateLogo 10s linear 0s infinite alternate;
-  background-color: #A539FF;
+  background-color: #a539ff;
   background-image: linear-gradient(90deg, #23a6d5, #a539ff, #e73c7e);
   background-position: left;
   background-size: 800% 100%;
@@ -39,7 +39,7 @@ body {
 }
 
 .logo-shadow {
-  letter-spacing: 2px; 
+  letter-spacing: 2px;
   -webkit-text-stroke: 2px black;
   text-stroke: 2px black;
 }
@@ -47,12 +47,12 @@ body {
 .logo-static {
   font-size: 20vw;
   letter-spacing: -5px;
-  font-family: "Arial"; 
+  font-family: "Arial";
   font-weight: 900;
   color: transparent;
   -moz-background-clip: text;
-  -webkit-background-clip: text; 
-  background-color: #A539FF;
+  -webkit-background-clip: text;
+  background-color: #a539ff;
   background-image: linear-gradient(90deg, #e73c7e, #a539ff, #23a6d5);
   background-size: 100% 100%;
   -webkit-text-stroke: 3px black;
@@ -60,25 +60,72 @@ body {
 }
 
 .target {
-    font-family: "Arial";
-    letter-spacing: 3px;
-    font-weight: 900;
-    color: transparent;
-    -moz-background-clip: text;
-    -webkit-background-clip: text;
-    animation: animateLogo 10s linear 0s infinite alternate;
-    background-color: #fff;
-    background-image: linear-gradient{90deg, #ff0000, #ff7f00, #ffff00, #00ff00,
-    #0000ff, #2e2b5f, #8b00ff);
-    background-position: left;
-    background-size: 800% 100%;
+  font-family: "Arial";
+  letter-spacing: 3px;
+  font-weight: 900;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  animation: animateLogo 10s linear 0s infinite alternate;
+  background-color: #fff;
+  background-image: linear-gradient(
+    90deg,
+    #ff0000,
+    #ff7f00,
+    #ffff00,
+    #00ff00,
+    #0000ff,
+    #2e2b5f,
+    #8b00ff
+  );
+  background-position: left;
+  background-size: 800% 100%;
 
-    background: #ffffff;
-    background: -webkit-linear-gradient(right, #ff0000, #ff7f00, #ffff00, #00ff00,
-    #0000ff, #2e2b5f, #8b00ff);
-    background: -moz-linear-gradient(right, #ff0000, #ff7f00, #ffff00, #00ff00,
-    #0000ff, #2e2b5f, #8b00ff);
-    background: linear-gradient(to left, #ff0000, #ff7f00, #ffff00, #00ff00,
-    #0000ff, #2e2b5f, #8b00ff);
+  background: #ffffff;
+  background: -webkit-linear-gradient(
+    right,
+    #ff0000,
+    #ff7f00,
+    #ffff00,
+    #00ff00,
+    #0000ff,
+    #2e2b5f,
+    #8b00ff
+  );
+  background: -moz-linear-gradient(
+    right,
+    #ff0000,
+    #ff7f00,
+    #ffff00,
+    #00ff00,
+    #0000ff,
+    #2e2b5f,
+    #8b00ff
+  );
+  background: linear-gradient(
+    to left,
+    #ff0000,
+    #ff7f00,
+    #ffff00,
+    #00ff00,
+    #0000ff,
+    #2e2b5f,
+    #8b00ff
+  );
+}
 
+#e-logo {
+  /* min-width: inherit; */
+  font-weight: 900;
+  font-size: 20vmax;
+  background-color: #a539ff;
+  background-image: linear-gradient(90deg, #e73c7e, #a539ff, #23a6d5);
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -webkit-text-stroke: 3px black;
+  text-stroke: 3px black;
+  /* letter-spacing: -5px; */
 }
