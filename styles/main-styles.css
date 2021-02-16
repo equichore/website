@@ -38,33 +38,33 @@ p {
 .sec1 {
   background: url("../stock_photo/woman/AdobeStock_189834949.jpeg") no-repeat
     center center fixed;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
+  -webkit-background-size: 100vmin;
+  -moz-background-size: 100vmin;
+  -o-background-size: 100vmin;
+  background-size: 100vmin;
 }
 
 .sec2 {
   background: url("../stock_photo/nag/AdobeStock_208672268_Preview.jpeg")
     no-repeat center center fixed;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
+  -webkit-background-size: 100vmin;
+  -moz-background-size: 100vmin;
+  -o-background-size: 100vmin;
+  background-size: 100vmin;
 }
 
 .sec3 {
   background: url("../stock_photo/woman/AdobeStock_53060533_Preview.jpeg")
     no-repeat center center fixed;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
+  -webkit-background-size: 100vmin;
+  -moz-background-size: 100vmin;
+  -o-background-size: 100vmin;
+  background-size: 100vmin;
 }
 
 .sec-target {
   background: url(../stock_photo/woman/archer3.jpeg) no-repeat center;
-  background-size: 100%;
+  background-size: 100vmin;
 }
 
 .sec-target::before {
