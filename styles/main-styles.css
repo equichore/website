@@ -35,7 +35,11 @@ p {
 } */
 
 .sec1 {
-  background: #ff0000 url("../stock_photo/woman/AdobeStock_189834949.jpeg") center/150vmin no-repeat fixed; 
+  background: url("../stock_photo/woman/AdobeStock_189834949.jpeg") no-repeat center center fixed;
+  -webkit-background-size: 100vmin;
+  -moz-background-size: 100vmin;
+  -o-background-size: 100vmin;
+  background-size: 100vmin;
 }
 
 .sec2 {
