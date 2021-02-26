@@ -68,6 +68,14 @@ p {
   background-size: 100vmin;
 }
 
+.sec4 {
+  background: url("../stock_photo/family/cleaning_together.jpeg") no-repeat center center fixed;
+  -webkit-background-size: 100vmin;
+  -moz-background-size: 100vmin;
+  -o-background-size: 100vmin;
+  background-size: 100vmin;
+}
+
 .sec-target {
   background: url(../stock_photo/woman/archer3.jpeg) no-repeat center;
   background-size: 100% auto;
