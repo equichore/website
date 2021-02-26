@@ -34,6 +34,13 @@ p {
   max-width: 75%;
 } */
 
+.sections {
+  min-height: 70vmin;
+   @media (max-width: 767.98px) {
+     min-height: fit-content;
+    }
+}
+
 .sec1 {
   background: url("../stock_photo/woman/AdobeStock_189834949.jpeg") no-repeat center center fixed;
   -webkit-background-size: 100vmin;
