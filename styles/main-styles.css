@@ -172,3 +172,8 @@ height: 32rem;
   #chorehorse-container {
     max-width: 70vw;
  }
+
+#home-spacer {
+  height: 10vh;
+  /* padding-top: 8vh; */
+}
